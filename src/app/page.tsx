@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 
 
 export default function Home() {
@@ -31,8 +31,13 @@ export default function Home() {
         <div className="flex flex-col items-center ">
           <h1 className="text-6xl font-bold mg-4 hover:underline ">Hello, I'm Fumo</h1>
           <p className="text-2xl my-5 hover:underline" >I'm a software developer</p>
+
+        </div>
+        <div className="flex flex-col items-center ">
+
           <Image src="/images/fumo.jpg" alt="Profile Picture" className="rounded-full " width="200" height="200" />
         </div>
+
         <div className="flex space-x-4  ">
           <Link href="/about" >
             <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded my-4">

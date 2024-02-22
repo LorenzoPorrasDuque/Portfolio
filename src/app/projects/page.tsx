@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function about() {
+export default function Projects() {
     return (
         <div>
             {/* Navbar */}
@@ -26,24 +26,31 @@ export default function about() {
                 </div>
             </nav>
 
-            <main className="flex min-h-screen flex-col items-center p-12 justify-around">
-                <div className="flex flex-col items-center  ">
-                    <h1 className="text-6xl font-bold mg-4 hover:underline ">Help</h1>
-                    <h2 className="text-4xl font-bold my-5 p-10">About me</h2>
-                    <p className="text-xl">Colombian, poor as fuck, Why I am making front bro?</p>
+            <main className="flex min-h-screen flex-col items-center p-10 justify-around">
+                <div className="flex items-center flex-col border-solid border-2 border-sky-50 p-4 m-2">
+                    <Image src="/images/miku.jpg" alt="Profile Picture" className="" width="300" height="300" />
+                    <div className="flex items-center flex-col">
+                        <h4 className="p-2"><b>Vocaloid API</b></h4>
+                        <p>Little project using Gi, Gin and Gorm also using Docker and Docker-compose to deploy the project.</p>
 
+                        <a href="https://github.com/LorenzoPorrasDuque/Vocaloid-CrudApi" target="_blank" rel="noopener noreferrer">
+                            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded my-4">
+                                Github
+                            </button>
+                        </a>
+
+
+                    </div>
                 </div>
 
 
-
-
             </main>
+
             <footer className="bg-gray-800 p-4 text-white">
                 <div className="container mx-auto text-center">
                     <p>© No tengo ni la menor idea de como esto arranca</p>
                 </div>
             </footer>
         </div>
-
     );
 }

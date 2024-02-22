@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 
-export default function about() {
+export default function contact() {
     return (
         <div>
             {/* Navbar */}
@@ -28,9 +27,9 @@ export default function about() {
 
             <main className="flex min-h-screen flex-col items-center p-12 justify-around">
                 <div className="flex flex-col items-center  ">
-                    <h1 className="text-6xl font-bold mg-4 hover:underline ">Help</h1>
-                    <h2 className="text-4xl font-bold my-5 p-10">About me</h2>
-                    <p className="text-xl">Colombian, poor as fuck, Why I am making front bro?</p>
+                    <h1 className="text-6xl font-bold mg-4  ">Email</h1>
+                    <h2 className="text-4xl font-bold my-5 p-10">lorenzo.porras.duque@gmail.com</h2>
+                    <a href="https://www.linkedin.com/in/lorenzoporrasduque" className="text-4xl font-bold my-5 p-5  hover:bg-blue-500 border border-blue-500 hover:border-transparent rounded my-4">Linkedin</a>
 
                 </div>
 
