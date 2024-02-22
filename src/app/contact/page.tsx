@@ -30,6 +30,9 @@ export default function contact() {
                     <h1 className="text-6xl font-bold mg-4  ">Email</h1>
                     <h2 className="text-4xl font-bold my-5 p-10">lorenzo.porras.duque@gmail.com</h2>
                     <a href="https://www.linkedin.com/in/lorenzoporrasduque" className="text-xl font-bold my-5 p-5  hover:bg-blue-500 border border-blue-500 hover:border-transparent rounded my-4">Linkedin</a>
+                    
+<a href="https://www.linkedin.com/in/lorenzoporrasduque" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Linkedin</a>
+
 
                 </div>
 
