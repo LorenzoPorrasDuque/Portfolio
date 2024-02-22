@@ -31,7 +31,7 @@ export default function Projects() {
                     <Image src="/images/miku.jpg" alt="Profile Picture" className="" width="300" height="300" />
                     <div className="flex items-center flex-col">
                         <h4 className="p-2"><b>Vocaloid API</b></h4>
-                        <p>Little project using Gi, Gin and Gorm also using Docker and Docker-compose to deploy the project.</p>
+                        <p>Little project using Go, Gin and Gorm also using Docker and Docker-compose to deploy the project.</p>
 
                         <a href="https://github.com/LorenzoPorrasDuque/Vocaloid-CrudApi" target="_blank" rel="noopener noreferrer">
                             <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded my-4">
