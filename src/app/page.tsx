@@ -29,8 +29,9 @@ export default function Home() {
 
       <main className="flex min-h-screen flex-col items-center p-12 justify-around">
         <div className="flex flex-col items-center ">
-          <h1 className="text-6xl font-bold mg-4 hover:underline ">Hello, I'm Fumo</h1>
-          <p className="text-2xl my-5 hover:underline" >I'm a software developer</p>
+          <h1 className="text-6xl font-bold mb-4 hover:underline">Hello, I&apos;m Fumo</h1>
+          <p className="text-2xl my-5 hover:underline">I&apos;m a software developer</p>
+
 
         </div>
         <div className="flex flex-col items-center ">
